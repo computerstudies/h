@@ -17,7 +17,7 @@ $conn = new PDO('mysql:host=ca-cdbr-azure-east-a.cloudapp.net;dbname=comp1006_20
 $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
 if($conn){
-echo 'connected';
+//echo 'connected';
 
 }
 else {
